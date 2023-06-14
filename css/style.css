@@ -253,3 +253,75 @@ body{
   font-size: 13px;
   color: #f6f4f5;
 }
+
+
+.game{
+  margin-bottom: 100px;
+}
+
+.game-title{
+  margin-bottom: 50px;
+}
+
+.game__inner{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.game__descr{
+  padding-right: 10px;
+}
+
+.game__descr-title{
+  text-transform: uppercase;font-weight: 400;
+  font-size: 36px;
+  margin-bottom: 10px;
+  background: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.game__descr-text{
+  margin-bottom: 30px;
+}
+
+.game__link{
+  display: inline-block;
+  background: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+  text-transform: uppercases;
+  padding: 16px 15px 12px;
+  width: 225px;
+  text-align: center;
+  border: 1px solid #BC10D8;
+  }
+
+.game__item{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #BC10D8;
+  padding: 10px 20px 18px;
+  
+}
+
+.game__item-img{
+  margin-bottom: 10px;
+}
+
+.game__item-title{
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.game__item-text{
+  margin-bottom: 30px;
+}
+
+.game__item-link{
+  background: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: auto;
+}
