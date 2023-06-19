@@ -296,13 +296,15 @@ body {
   padding: 16px 15px 12px;
   width: 225px;
   text-align: center;
-  border: 1px solid #BC10D8;
+  border: 1px solid;
+  border-image: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%) 1;
 }
 
 .game__item {
   display: flex;
   flex-direction: column;
-  border: 1px solid #BC10D8;
+  border: 1px solid;
+  border-image: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%) 1;
   padding: 10px 20px 18px;
 
 }
@@ -408,12 +410,94 @@ body {
 
 .promo{
   margin-bottom: 100px;
-  background-image: url(../images/promo.jpg);
 }
 
 .promo__inner{
   background-image: url(../images/promo.jpg);
+  min-height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  position: relative;
 }
 .promo__btn{
+  font-weight: 700;
+  color: #FFF;
+  background: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 80px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
 
+.accessories{
+  margin-bottom: 100px; 
+}
+
+.accessories__title{
+  margin-bottom: 30px;
+}
+
+.accessories__text{
+  margin-bottom: 30px;
+  background: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 36px;
+  text-transform: uppercase;
+}
+
+.accessories__items{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.accessories__item{
+  padding: 20px;
+  border: 1px solid;
+  border-image: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%) 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.accessories__item-img{
+  margin-bottom: 10px;
+}
+
+.accessories__item-title{
+  font-size: 24px;
+  color: #070707;
+  min-height: 67px;
+}
+
+.accessories__item-text{
+  margin-bottom: 35px;
+  margin-top: auto;
+}
+
+.accessories__item-price{
+  font-weight: 700;
+  line-height: 18px;
+  color: #070707;
+  margin-bottom: 20px;
+  margin-top: auto;
+}
+
+.accessories__item-btn{
+  border: 1px solid;
+  border-image: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%) 1;
+  padding: 6px;
+  font-weight: 700;
+  background: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%) 1;
+  text-align: center;
+  width: 100%;
 }
